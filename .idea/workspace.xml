@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c06466ed-1121-4281-9358-dac240b4e14d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/awx/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory" beforeDir="false" afterPath="$PROJECT_DIR$/inventory" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory_children" beforeDir="false" afterPath="$PROJECT_DIR$/inventory_children" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LES_PLAYBOOKS.md" beforeDir="false" afterPath="$PROJECT_DIR$/LES_PLAYBOOKS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/ansible.cfg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,12 +54,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.google.cloudcode.ide_session_index" value="20210309_0001" />
+    <property name="com.google.cloudcode.ide_session_index" value="20210312_0001" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../crunchydevops/ansible/ansible-dynamic-inventory" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ansible-install-git" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -119,7 +120,9 @@
       <workItem from="1614920778219" duration="1306000" />
       <workItem from="1614922100293" duration="16791000" />
       <workItem from="1615190495313" duration="601000" />
-      <workItem from="1615367581406" duration="622000" />
+      <workItem from="1615367581406" duration="1301000" />
+      <workItem from="1615475808032" duration="1426000" />
+      <workItem from="1615534072785" duration="12000" />
     </task>
     <task id="LOCAL-00001" summary="minor changes">
       <created>1591282108822</created>
@@ -287,6 +290,7 @@
     <MESSAGE value="changed comments" />
     <MESSAGE value="More few changes" />
     <MESSAGE value="Fixed role docker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed role docker" />
+    <MESSAGE value="change local to python3" />
+    <option name="LAST_COMMIT_MESSAGE" value="change local to python3" />
   </component>
 </project>

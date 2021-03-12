@@ -145,7 +145,7 @@ entrez votre mot de passe
 mettrez ce mot de passe dans un fichier  
 ```vi /home/<home_directory>/mysecret```   
 Vous pouvez executer le playbook avec dans example-role directory   
-```ansible-playbook -i inventory_children --vault-password-file /home/<home_directory>/mysecret playbook.yml``` 
+```ansible-playbook -i inventory_children --vault-password-file ~/mysecret playbook.yml``` 
 vous pouvez metter le path de ce fichier dans votre ```.bash_profile``` file.  
 ```export  ANSIBLE_VAULT_PASSWORD_FILE=/home/<home>/mysecret```      
 et vous entrez la commande sans vous soucier du fichier du mot de passe  
@@ -155,7 +155,7 @@ et vous entrez la commande sans vous soucier du fichier du mot de passe
  Faire un fork de ce repo  
  ```https://github.com/crunchy-devops/ansible-postgresql.git```
  dans votre repo github personnel
- et faire un git clone, dans votre home directory, et dans la vm ansible controller 
+ et faire un git clone, dans votre machine local , et dans la vm ansible controller 
 
 
 
