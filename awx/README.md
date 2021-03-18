@@ -35,11 +35,23 @@ ansible-playbook -i inventory install.yml -e @vars.yml
 ## AWX Tutorial
 Create a user  
 Create a team  
-Create credentials, source control  
-and Machine, copy your private ssh key    
-Create a projet  
+Create credentials, one source control  
+and SSH Machine Type, copy your private ssh key    
+Create a projet 
 Create an inventory  
 Create a Job Template  
 Execute the Job Template  
+
+## Add a custom python import in AWX container
+```shell 
+docker exec -it awx_task /bin/bash
+source /var/lib/awx/venv/ansible/bin/activate
+(ansible) bash-4.4# pip install natsort
+exit
+```
+
+
+
+
 
 
