@@ -1,5 +1,5 @@
 ---
-- hosts: centos_remote_a
+- hosts: all
   tasks:
   - name:  loop example
     file: 

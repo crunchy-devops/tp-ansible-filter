@@ -10,10 +10,10 @@
 ```ansible-playbook -i inventory_children ansible_facts_using_assert.yml```  
 
 ### Le prompt et les conditions
-```ansible-playbook -i inventory_children conditions.yml --limit centos```
+```ansible-playbook -i inventory_children conditions.yml --limit ubuntu```
 
 ### les boucles
-```ansible-playbook -i inventory_children loops.yml --limit centos```
+```ansible-playbook -i inventory_children loops.yml --limit centosdocker```
 
 ## Passage d'information entre les hosts
 ### In-memory Inventory 

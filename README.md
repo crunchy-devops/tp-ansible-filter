@@ -102,8 +102,8 @@ et faire la commande Ansible Ad-Hoc pour verifier si votre fichier inventory est
 Faire ensuite  les Ad-Hoc commandes suivantes une par une lentement:  
 ```shell script 
 ansible centos -m yum -a "name=elinks state=latest" -i inventory
-ansible centosremote -m yum -a "name=elinks state=latest" -i inventory
-ansible centosremote -b -m yum -a "name=elinks state=latest" -i inventory
+ansible ubunturemote -m apt -a "name=elinks state=latest" -i inventory
+ansible ubunturemote -b -m apt -a "name=elinks state=latest" -i inventory
 ansible all --list-hosts -i inventory
 ansible all -m setup -a "filter=ansible_default_ipv4"  -i inventory
 ansible all -m setup -a "filter=ansible_distribution"  -i inventory 
@@ -122,5 +122,5 @@ Dans la directory ansible-examples editez le fichier ansible_ping.yml, et etudie
 ## Premieres commandes ansible-playbook
  ```shell script
 ansible-playbook  -i inventory_children ansible_ping.yml  --limit centosdocker
-ansible-playbook  -i inventory_children ansible_ping.yml  --limit centos
+ansible-playbook  -i inventory_children ansible_ping.yml  --limit web
 ````
