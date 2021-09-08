@@ -41,4 +41,11 @@ class FilterModule(object):
           cmd = "lsblk -f {}".format(inter[1][:-1])
           #return cmd
           check_blk = str(subprocess.check_output(cmd,shell=True))
-          return check_blk
+          #return check_blk
+          for t in type_format:
+              if t in check_blk:
+                  flag = 1
+          if flag == 0:
+            device.append(inter[1][:-1])
+          flag = 0
+        return device
